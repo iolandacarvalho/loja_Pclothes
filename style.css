@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+/* FUNDO DA TELA */
+    body
+    {
+        background-color: white;
+    }
+/* FIM FUNDO DA TELA */
+
+/* CABEÇALHO */
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-family: "Lexend", sans-serif;
+    padding: 2%;
+    background-color: #11151C;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link {
+    color: #F8F4F9;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #c5c5c5;
+}
+.nav-underline {
+    color: #c5c5c5;
+}
+/* FIM CABEÇALHO */
+
+/* PRODUTOS */
+.produtos {
+    text-align: center;
+    font-family: "Sarala", sans-serif;;
+}
+.camisa img {
+    width: 16%;
+}
+.camisa:hover {
+    
+}
+
+
+/* FIM PRODUTOS */
