@@ -17,7 +17,12 @@
     position: sticky;
     top: 0;
 }
-
+.logocabecalho img {
+    width: 120px;
+}
+.logocabecalho {
+    margin-right: 2%;
+}
 .nav-link {
     color: #F8F4F9;
     text-transform: uppercase;
@@ -32,11 +37,25 @@
 
 /* PRODUTOS */
 .produtos {
-    text-align: center;
-    font-family: "Sarala", sans-serif;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-right: auto;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.descricao {
+    font-family: "Sarala", sans-serif;
 }
 .camisa img {
-    width: 16%;
+    width: 70%;
+}
+.teste {
+    flex-basis: calc(25% - 16px);
+    text-align: center;
 }
 .camisa:hover {
     
