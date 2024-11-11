@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 /* FUNDO DA TELA */
     body
     {
@@ -13,7 +15,7 @@
     justify-content: center;
     font-family: "Lexend", sans-serif;
     padding: 2%;
-    background-color: #11151C;
+    background-color: black;
     position: sticky;
     top: 0;
 }
@@ -35,14 +37,64 @@
 }
 /* FIM CABEÇALHO */
 
+/* BANNER */
+ .banner {
+    margin-top: 1px;
+ }
+
+/* FIM BANNER */
+
+/* COLEÇÕES */
+.titulocolecoes {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+ }
+.colecoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.vermais {
+    flex-basis: calc(25% - 16px);
+    text-align: center;
+}
+.botao {
+    margin-top: 2%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 26px;
+}
+.botao button {
+    width: 40%;
+    background-color: #E0FF4F;
+    border: #E0FF4F;
+    border-radius: 80px;
+    text-align: center;
+}
+/* FIM COLEÇÕES */
+
 /* PRODUTOS */
+.titulocamisas {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
 .produtos {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 84%;
     margin-left: auto;
-    margin-top: 2%;
     margin-right: auto;
     gap: 16px;
     flex-wrap: wrap;
@@ -60,6 +112,70 @@
 .camisa:hover {
     
 }
-
-
+.vercamisas {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 26px;
+}
+.vercamisas button {
+    background-color: #E0FF4F;
+    border: #E0FF4F;
+    border-radius: 80px;
+    text-align: center;
+    width: 14%;
+}
+.titulobermudas {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.bermuda img {
+    width: 70%;
+}
+.verbermudas {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 26px;
+}
+.verbermudas button {
+    background-color: #E0FF4F;
+    border: #E0FF4F;
+    border-radius: 80px;
+    text-align: center;
+    width: 14%;
+}
 /* FIM PRODUTOS */
+
+/* FOOTER */
+    footer {
+        background-color: #888887;
+    }
+.footer {
+    align-items: center;
+    margin-top: 4%;
+    padding-top: 2%;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    color: white;
+}
+.nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.informacoes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.informacoes img {
+    width: 30px;
+}
+/* FIM FOOTER */
