@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/* CABEÇALHO */
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-family: "Lexend", sans-serif;
+    padding: 2%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.logocabecalho img {
+    width: 120px;
+}
+.logocabecalho {
+    margin-right: 2%;
+}
+.nav-link {
+    color: #F8F4F9;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #c5c5c5;
+}
+.nav-underline {
+    color: #c5c5c5;
+}
+.nav-underline .nav-link.active {
+    color: #F8F4F9;
+}
+/* FIM CABEÇALHO */
+
+/* TEXTO ANIMADO */
+.texto-animado {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #E0FF4F;
+    height: 28px;
+}
+.texto-animado p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: loopTexto 120s linear infinite;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+}
+@keyframes loopTexto {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* FIM TEXTO ANIMADO */
+
+/* CAMISAS */
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.descricao {
+    font-family: "Sarala", sans-serif;
+}
+.camisa img {
+    width: 70%;
+    transition: all 0.5s ease-in-out;
+}
+.teste {
+    flex-basis: calc(25% - 16px);
+    text-align: center;
+}
+.camisa img:hover {
+    opacity: 60%;
+    transform: scale(1.0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* FIM CAMISAS */
+
+/* FOOTER */
+footer {
+    background-color: #888887;
+}
+.footer {
+align-items: center;
+margin-top: 4%;
+padding: 10px;
+text-align: center;
+font-family: "Poiret One", sans-serif;
+color: white;
+}
+.footer h1 {
+font-size: 30px;
+}
+.footer h2 {
+font-size: 26px;
+}
+.footer h3 {
+font-size: 18px;
+}
+.nome {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.nome img {
+width: 20px;
+}
+.informacoes {
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.informacoes img {
+width: 20px;
+}
+.copyright {
+margin-top: 1%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 2%;
+gap: 10px;
+}
+/* FIM FOOTER */

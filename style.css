@@ -156,18 +156,29 @@
 .footer {
     align-items: center;
     margin-top: 4%;
-    padding-top: 2%;
+    padding: 10px;
     text-align: center;
     font-family: "Poiret One", sans-serif;
     color: white;
+}
+.footer h1 {
+    font-size: 30px;
+}
+.footer h2 {
+    font-size: 26px;
+}
+.footer h3 {
+    font-size: 18px;
 }
 .nome {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
-
+.nome img {
+    width: 20px;
+}
 .informacoes {
     margin-top: 20px;
     display: flex;
@@ -176,6 +187,14 @@
     gap: 20px;
 }
 .informacoes img {
-    width: 30px;
+    width: 20px;
+}
+.copyright {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    gap: 10px;
 }
 /* FIM FOOTER */
