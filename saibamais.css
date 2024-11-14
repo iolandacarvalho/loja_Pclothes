@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/* CABEÇALHO */
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-family: "Lexend", sans-serif;
+    padding: 2%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.logocabecalho img {
+    width: 120px;
+}
+.logocabecalho {
+    margin-right: 2%;
+}
+.nav-link {
+    color: #F8F4F9;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #c5c5c5;
+}
+.nav-underline {
+    color: #c5c5c5;
+}
+.nav-underline .nav-link.active {
+    color: #F8F4F9;
+}
+/* FIM CABEÇALHO */
+
+/* IMAGEM */
+.col.colunaum img{
+    width: 100%;
+}
+.col.colunaum {
+    padding: 4%;
+}
+.col.colunadois {
+    padding: 4%;
+}
+.conteudo h3 {
+    font-family: "Sarala", sans-serif;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.conteudo h2 {
+    font-family: "Sarala", sans-serif;
+    font-size: 30px;
+}
+.titulocamisa {
+    font-size: 66px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.tamanhos {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+.imgtamanho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.imgtamanho img {
+    width: 50px;
+}
+.imgtamanho img:hover {
+    opacity: 40%;
+}
+.comprar {
+    margin-bottom: 4px;
+    width: 400px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    background-color: #E0FF4F;
+}
+.adicionar {
+    margin-bottom: 4px;
+    width: 400px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    background-color: #E0FF4F;
+}
+.informacao {
+    margin-top: 2%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+.nav-link.dois {
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link.dois:hover {
+    color: #586814;
+}
+.nav-underline.dois {
+    color: black;
+}
+.nav-underline.dois .nav-link.active.dois {
+    color: black;
+}
+.informacao {
+    margin-bottom: 20px;
+}
+.txt {
+    font-family: "Sarala", sans-serif;
+}
+/* FIM IMAGEM */
+
+/* PRODUTOS RELACIONADOS */
+.relacionados {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.descricao {
+    font-family: "Sarala", sans-serif;
+}
+.camisa img {
+    width: 70%;
+}
+.teste {
+    flex-basis: calc(25% - 16px);
+    text-align: center;
+}
+/* FIM PRODUTOS RELACIONADOS */
+
+/* FOOTER */
+footer {
+    background-color: #888887;
+}
+.footer {
+align-items: center;
+margin-top: 4%;
+padding: 10px;
+text-align: center;
+font-family: "Poiret One", sans-serif;
+color: white;
+}
+.footer h1 {
+font-size: 30px;
+}
+.footer h2 {
+font-size: 26px;
+}
+.footer h3 {
+font-size: 18px;
+}
+.nome {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.nome img {
+width: 20px;
+}
+.informacoes {
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.informacoes img {
+width: 20px;
+}
+.copyright {
+margin-top: 1%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 2%;
+gap: 10px;
+}
+/* FIM FOOTER */
