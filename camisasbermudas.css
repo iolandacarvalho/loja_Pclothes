@@ -64,10 +64,17 @@
 /* CAMISAS */
 .col-2 {
     padding: 16px;
-    /* position: fixed;
-    left: 0;
-    z-index: -1; */
+}
+.col-2.position-fixed {
+    height: 100vh;
+    overflow-y: auto;
+    padding-top: 20px;
 
+}
+.fixar {
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .col-2 h1 {
     font-family: "Jura", sans-serif;
@@ -92,7 +99,7 @@
     gap: 10px;
 }
 .col-10 {
-    /* margin-left: 300px; */
+    margin-left: 300px;
 }
 
 .produtos {

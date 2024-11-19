@@ -105,6 +105,11 @@
 .camisa img {
     width: 70%;
 }
+.camisa img:hover {
+    opacity: 60%;
+    transform: scale(1.0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .teste {
     flex-basis: calc(25% - 16px);
     text-align: center;
@@ -134,6 +139,11 @@
 }
 .bermuda img {
     width: 70%;
+}
+.bermuda img:hover {
+    opacity: 60%;
+    transform: scale(1.0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .verbermudas {
     text-align: center;
